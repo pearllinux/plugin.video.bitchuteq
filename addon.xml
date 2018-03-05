@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<addon 
+  id="plugin.video.bitchuteq" 
+  name="QNews BitChute Videos" 
+  provider-name="scottyvbama" 
+  version="0.0.9">
+  <requires>
+    <import  addon="xbmc.python"                      version="2.1.0" />
+    <import  addon="script.common.plugin.cache"       version="1.5.1" />
+    <import  addon="script.module.parsedom"           version="1.5.1" />
+    <import  addon="script.module.simple.downloader"  version="0.9.4" />
+	<import  addon="script.module.beautifulsoup4"     version="4.3.2" />
+  </requires>
+  <extension library="default.py"                     point="xbmc.python.pluginsource">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">BitChute videos plugin</summary>
+    <description lang="en">Qnews BitChute is a peer to peer video sharing platform. Its mission is to put people and free speech first. It's free to join and create and upload your own videos to share with others..</description>
+    <language>en</language>
+    <platform>all</platform>
+	<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
+	<forum>http://forum.kodi.tv/showthread.php?tid=307789</forum>
+	<website>http://www.prophetic-news.com/</website>
+	<email></email>
+	<source>http://github.com/pearllinux/plugin.video.bitchuteq</source>
+  </extension>
+</addon>
